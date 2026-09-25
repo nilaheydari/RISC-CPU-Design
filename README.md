@@ -127,9 +127,8 @@ The waveform below illustrates the CPU clock, reset, ALU output, and memory outp
 
 
 
-## 🛠️ Tools & Technologies
 
-<div align="center">
+## 🛠️ Tools & Technologies
 
 ![VHDL](https://img.shields.io/badge/VHDL-Hardware_Description-007ACC?style=for-the-badge)
 
@@ -138,8 +137,7 @@ The waveform below illustrates the CPU clock, reset, ALU output, and memory outp
 ![ISim](https://img.shields.io/badge/ISim-Simulation-7353BA?style=for-the-badge)
 
 ![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)
 
-</div>
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)
 
 
