@@ -71,19 +71,18 @@ The ALU supports eight operations selected by a 3-bit control signal.
 
 
 
+
 ## 📋 Instruction Set
 
-The Control Unit recognizes five instruction opcodes:
+The Control Unit recognizes the following instructions.
 
-```text
-OPCODE    INSTRUCTION    DESCRIPTION
-------------------------------------------
-0000      ADD            Register addition
-0001      XOR            Bitwise XOR
-0010      LOAD           Load data from memory
-0011      STORE          Store data in memory
-0100      BRANCH         Branch control signal
-```
+| Opcode | Instruction | Description |
+|:---:|:---:|:---|
+| 0000 | ADD | Register addition |
+| 0001 | XOR | Bitwise XOR |
+| 0010 | LOAD | Load data from memory |
+| 0011 | STORE | Store data in memory |
+| 0100 | BRANCH | Branch control signal generation |
 
 
 ## 📁 Project Structure
