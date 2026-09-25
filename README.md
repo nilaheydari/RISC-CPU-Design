@@ -108,7 +108,7 @@ RISC-CPU-Design/
 └── README.md
 
 
-
+```
 
 ## 🧪 Simulation Results
 
