@@ -12,7 +12,6 @@
 
 </div>
 
----
 
 ## 📖 Overview
 
@@ -22,7 +21,7 @@ The processor is developed using a modular architecture, integrating essential c
 
 The project demonstrates fundamental concepts of computer architecture, digital logic design, and processor simulation.
 
----
+
 
 ## ✨ Key Features
 
