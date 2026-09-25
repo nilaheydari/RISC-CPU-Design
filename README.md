@@ -23,48 +23,34 @@ The project demonstrates fundamental concepts of computer architecture, digital 
 
 
 
-
 ## ✨ Key Features
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <h3>🖥️ 16-bit RISC</h3>
-      CPU Architecture
-    </td>
-    <td align="center" width="50%">
-      <h3>🧮 8 Operations</h3>
-      Arithmetic & Logic
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <h3>🗂️ 16 Registers</h3>
-      16-bit Register File
-    </td>
-    <td align="center">
-      <h3>💾 Separate Memory</h3>
-      Instruction & Data
-    </td>
-  </tr>
-</table>
+| Feature | Description |
+|:---|:---|
+| Architecture | 16-bit RISC CPU |
+| Language | VHDL |
+| Design | Modular processor architecture |
+| ALU | 8 arithmetic and logical operations |
+| Register File | 16 general-purpose 16-bit registers |
+| Memory | Separate instruction and data memory |
+| Simulation | Xilinx ISim |
+| Development | Xilinx ISE Design Suite |
+
+
 
 
 ## 🧩 CPU Architecture
 
-The processor is organized into several interconnected modules.
+The processor is organized into several interconnected modules:
 
-| Component | Function |
-|:---|:---|
-| Program Counter (PC) | Tracks instruction addresses |
-| Instruction Memory | Stores and provides CPU instructions |
-| Control Unit | Decodes instructions and generates control signals |
-| Register File | Stores and retrieves register data |
-| ALU | Performs arithmetic and logical operations |
-| Data Memory | Handles memory read and write operations |
-| Sign Extension | Extends 8-bit immediate values to 16 bits |
-| Multiplexer | Selects the appropriate ALU input |
-
+- **Program Counter (PC)** — Tracks instruction addresses.
+- **Instruction Memory** — Stores and provides CPU instructions.
+- **Control Unit** — Decodes instructions and generates control signals.
+- **Register File** — Stores and retrieves register data.
+- **ALU** — Performs arithmetic and logical operations.
+- **Data Memory** — Handles memory read and write operations.
+- **Sign Extension** — Extends 8-bit immediate values to 16 bits.
+- **Multiplexer** — Selects the appropriate ALU input.
 
 
 ## 🔢 ALU Operations
@@ -84,18 +70,20 @@ The ALU supports eight operations selected by a 3-bit control signal.
 
 
 
+
 ## 📋 Instruction Set
 
-The Control Unit recognizes the following instructions.
+The Control Unit recognizes five instruction opcodes:
 
-| Opcode | Instruction | Description |
-|:---:|:---:|:---|
-| 0000 | ADD | Register addition |
-| 0001 | XOR | Bitwise XOR |
-| 0010 | LOAD | Load data from memory |
-| 0011 | STORE | Store data in memory |
-| 0100 | BRANCH | Branch control signal generation |
-
+```text
+OPCODE    INSTRUCTION    DESCRIPTION
+------------------------------------------
+0000      ADD            Register addition
+0001      XOR            Bitwise XOR
+0010      LOAD           Load data from memory
+0011      STORE          Store data in memory
+0100      BRANCH         Branch control signal
+```
 
 
 ## 📁 Project Structure
