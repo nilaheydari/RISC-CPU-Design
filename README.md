@@ -36,7 +36,6 @@ The project demonstrates fundamental concepts of computer architecture, digital 
 | 🧪 Simulation | Xilinx ISim |
 | 🛠️ Development | Xilinx ISE Design Suite |
 
----
 
 ## 🧩 CPU Architecture
 
@@ -53,7 +52,7 @@ The processor is organized into several interconnected modules.
 | Sign Extension | Extends 8-bit immediate values to 16 bits |
 | Multiplexer | Selects the appropriate ALU input |
 
----
+
 
 ## 🔢 ALU Operations
 
@@ -70,7 +69,7 @@ The ALU supports eight operations selected by a 3-bit control signal.
 | 110 | SHL | Logical left shift |
 | 111 | SHR | Logical right shift |
 
----
+
 
 ## 📋 Instruction Set
 
@@ -84,7 +83,7 @@ The Control Unit recognizes the following instructions.
 | 0011 | STORE | Store data in memory |
 | 0100 | BRANCH | Branch control signal generation |
 
----
+
 
 ## 📁 Project Structure
 
@@ -107,9 +106,9 @@ RISC-CPU-Design/
 │
 ├── simulation.png
 └── README.md
-```
 
----
+
+
 
 ## 🧪 Simulation Results
 
@@ -125,7 +124,7 @@ The waveform below illustrates the CPU clock, reset, ALU output, and memory outp
 
 </div>
 
----
+
 
 ## 🛠️ Tools & Technologies
 
@@ -136,23 +135,4 @@ The waveform below illustrates the CPU clock, reset, ALU output, and memory outp
 | Xilinx ISim | Functional simulation |
 | Git & GitHub | Version control and documentation |
 
----
 
-## 🚀 Getting Started
-
-1. Clone this repository.
-2. Open Xilinx ISE.
-3. Create a VHDL project and add the source files from `src/`.
-4. Add the testbench from `tb/`.
-5. Run the simulation using Xilinx ISim.
-6. Observe the ALU and memory outputs.
-
----
-
-<div align="center">
-
-### 🎓 Computer Architecture Laboratory
-
-**Designed and implemented using VHDL**
-
-</div>
