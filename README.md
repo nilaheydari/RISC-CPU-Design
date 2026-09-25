@@ -27,14 +27,14 @@ The project demonstrates fundamental concepts of computer architecture, digital 
 
 | Feature | Description |
 |:---|:---|
-| 🖥️ Architecture | 16-bit RISC CPU |
-| 💻 Language | VHDL |
-| ⚙️ Design | Modular processor architecture |
-| 🧮 ALU | 8 arithmetic and logical operations |
-| 🗂️ Register File | 16 general-purpose 16-bit registers |
-| 💾 Memory | Separate instruction and data memory |
-| 🧪 Simulation | Xilinx ISim |
-| 🛠️ Development | Xilinx ISE Design Suite |
+|  Architecture | 16-bit RISC CPU |
+|  Language | VHDL |
+|  Design | Modular processor architecture |
+|  ALU | 8 arithmetic and logical operations |
+|  Register File | 16 general-purpose 16-bit registers |
+|  Memory | Separate instruction and data memory |
+|  Simulation | Xilinx ISim |
+|  Development | Xilinx ISE Design Suite |
 
 
 ## 🧩 CPU Architecture
